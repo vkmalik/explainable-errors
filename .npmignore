@@ -1,0 +1,24 @@
+# TypeScript source (we publish compiled JS in dist/)
+src/
+
+# Tests and internal code
+tests/
+
+# Build artifacts (tsc creates dist/, which we include)
+*.tsbuildinfo
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*.local
+
+# Development files
+.github
+
+# Logs
+npm-debug.log*
+yarn-debug.log*

@@ -1,0 +1,33 @@
+{
+  "name": "explainable-errors",
+  "version": "1.0.0",
+  "description": "Turn raw errors into human-readable, teachable explanations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vkmalik/explainable-errors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vkmalik/explainable-errors/issues"
+  },
+  "homepage": "https://github.com/vkmalik/explainable-errors#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "errors",
+    "developer-experience",
+    "dx",
+    "teaching",
+    "debugging"
+  ],
+  "author": "Vivek Malik",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3",
+    "ts-node": "^10.9.2"
+  }
+}
