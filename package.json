@@ -12,6 +12,11 @@
     "url": "https://github.com/vkmalik/explainable-errors/issues"
   },
   "homepage": "https://github.com/vkmalik/explainable-errors#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
